@@ -4,10 +4,10 @@ public class Main {
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-		int sum = a + b;
+		double r = scan.nextDouble();
+		double area = 3.14159 * r * r;
 		
-		System.out.println("SOMA = " + sum);
+		System.out.printf("A=%.4f\n", area);
 	}
 }
+
